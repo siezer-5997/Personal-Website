@@ -1,0 +1,71 @@
+img {
+    border-radius: 2rem;
+    width: 20%;
+}
+body {
+    color:black;
+    /* text-decoration:overline; */
+    size: 10%;
+    /* background-color: rgb(231, 223, 223); */
+}
+
+#avatar{
+    width: 20%;
+}
+
+.bio{
+    color: black;
+    background-color: rgb(188, 225, 220);
+    padding: 0.5rem 2rem;
+    margin: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: solid 2px rgb(172, 216, 196);
+}
+.bio a{
+    text-decoration: none;
+    color: black;
+    
+}
+.bio a:hover{
+    color: rgb(79, 150, 143);
+}
+
+
+
+.d1, .d2 {
+width: 8rem;
+margin: 1rem 1rem;
+padding: 6px 9px;
+border: 1px solid lightgray;
+background-color: gray;
+font-size: 18px;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.d1 {
+background-color: lightsteelblue;
+}
+.d2 {
+background-color: rgb(217, 105, 105);
+}
+#bt1 {
+margin: 0.4rem 1rem;
+width: 4rem;
+padding: 4px 4px;
+background-color: rgb(188, 225, 220);
+border-style: none;
+}
+
+#mes{
+    background-color: aqua;
+    width: 8rem;
+    float:inline-end;
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+    border: 1px solid red;
+    text-align: center;
+    position: relative;
+    left: 9rem;
+}
+  
