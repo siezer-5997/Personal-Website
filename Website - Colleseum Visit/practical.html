@@ -1,0 +1,151 @@
+<html>
+<head>
+
+    <title>Practical </title>
+    <link rel="stylesheet" type="text/css" href="css/Home-page.css">
+    <meta charset="utf-8">
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+
+
+<body onload="show_movies();">
+
+<!-- Responsive navbar -->
+
+<nav class="navbar navbar-expand-sm  navbar-light" style="margin-bottom: 0;">
+      
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="image/romicon.jpg" alt="logo" style="width:40px;">
+    </a>
+    <!-- Links -->
+    <ul class="navbar-nav ">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="feedback.html">Feedback</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="news.html">News</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="advancedsearch.html">Advanced search</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sitemap.html">Sitemap</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="help.html">Help</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="myfriends.html">Friends</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="myfavoriteplaces.html">Favorite Place</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tourists.html">Tourists</a>
+      </li>
+      <button class="btn btn-secondary primary loginbutton" onclick="document.location='login.html'">Login</button>
+
+    </ul>
+  </div>
+
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">movie</th>
+            <th scope="col">gener</th>
+            <th scope="col">file name</th>
+          </tr>
+        </thead>
+        <tbody id="movie-table-data">
+          <tr>
+            <th scope="row">1</th>
+            <td>alice in wonderland</td>
+            <td>comdy</td>
+            <td>@yes.png</td>
+          </tr>
+          
+        </tbody>
+      </table>
+
+
+   
+   <script>
+       function showMess() {
+       alert(localStorage.place)
+      };
+
+
+
+// Table of movies
+
+function show_movies(){
+    
+    var table_html="";
+    for(var index in movies){
+        var movie=movies[index];
+        var title=movie["title"];
+        var genre=movie["genre"];
+        var file_name=movie["file_name"];
+        var movie_index=Number(index)+1;
+        table_html+="<tr><th scope='row'>"+movie_index+"</th><td>"+title+"</td><td class='"+genre+"'>"+genre+"</td><td>"+file_name+"</td></tr>";
+    }
+    
+    $("#movie-table-data").html(table_html);
+    
+};
+var movies = [
+    { "title": "Khulood in Wonderland", "genre": "kids", "file_name": "alice_wonderland.jpg" },
+    { "title": "Dora", "genre": "kids", "file_name": "dora.jpg" },
+    { "title": "Pirates of Caribbean", "genre": "family", "file_name":"priates_caribbean.jpg" },
+{"title":"Monthers are the best!","genre":"kids","file_name":"mothers.jpg"},
+{"title":"The stone age","genre":"science","file_name":"stone_age.jpg"},
+{"title":"The penthouse","genre":"drama","file_name":"penthouse.jpg"},
+{"title":"Intersteller","genre":"drama","file_name":"interstellar.jpg"},
+{"title":"Lupin","genre":"comedy","file_name":"lupin.jpg"}
+];
+
+   </script>
+
+
+</body>
+
+
+
+
+
+
+</html>

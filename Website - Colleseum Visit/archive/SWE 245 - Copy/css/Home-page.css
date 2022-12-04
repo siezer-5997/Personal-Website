@@ -1,0 +1,930 @@
+
+
+
+body{
+  background-color:#AAAAAA;
+  background-image:url(background.jpg);
+  
+}
+ 
+h1{
+  background-color: black;
+  color: whitesmoke;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:250%;
+  padding: 10px;
+  border-radius: 8px;
+  }
+
+
+p{
+	 color: rgb(230, 235, 234);
+	font-size:20px;
+  }
+
+  /* Logo for the website */
+.logo img {
+  position: absolute;
+  top: 60px;
+  border-radius: 170px;
+}
+.hoverin {
+  background:url("../image/romicon.jpg");
+  width:200px ;
+  height: 160px;
+
+}
+
+.hoverin:hover{
+  background: url("../image/romegal.jpg");
+  width:200px ;
+  height: 160px;
+}
+.hoverin img {
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  top: 60px;
+  border-radius: 170px;
+}
+
+/* Drop down menu */
+
+.dropdown-toggle .dropdown-menu {
+  display: none;
+}
+.dropdown .dropdown-toggle:hover .dropdown-menu{
+  display: block;
+}
+
+
+
+
+/* Thank you for visitng image */
+.vtngg {
+  margin-left: 200px;
+  margin-top: 50px;
+  border-radius: 40px;
+  margin-bottom: 90px;
+}
+.vtngg img{
+  border-radius: 40px;
+}
+
+
+
+
+/* Home page first image styling and content editing */
+.conttra {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.conttra img {vertical-align: middle;}
+
+.conttra .tent {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Index page special styling*/
+.head {
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.row22 p {
+  color: black;
+  background-color: rgb(155, 127, 127);
+  text-align: justify;
+  padding: 10px;
+}
+.row22 {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  padding: 30px;
+  
+}
+.photos img{
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 50px;
+}
+.photos{
+  background-color: white;
+  padding: 25px;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* First two paragraphs in index*/
+.hist {
+  text-decoration: none;
+  background-color:rgba(27, 27, 25, 0.884);
+  text-align:center;
+  margin-right: 10px;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  padding: 6px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+
+/* Index page further info and back ground */
+.ainf h3 {
+  background-color: bisque;
+  text-align: center;
+  padding: 10px;
+  margin: 2 8px;
+  border-radius: 10px;
+  font-family: cursive;
+  color: #f44336;
+}
+.ainf p {
+  color: black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  background-color: rgb(155, 127, 127);
+  
+  padding: 15px;
+  text-align: justify;
+  
+}
+
+/* Index page additonal video with button*/
+
+
+/* vidtub videos with in border*/
+
+
+.vidtub  {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.vidtub .column{
+  float: left;
+  width: 43%;
+  padding: 10px;
+  height: 450px;
+  text-align: center;
+}
+.vidtub .one{
+  background-color: rgb(129, 210, 212);
+  padding: 10px;
+  margin-left: 60px;
+  padding: 20px;
+  color: rgb(199, 42, 42);
+  font-family:cursive;
+}
+.vidtub .one a img{
+  border-radius: 12px ;
+}
+.vidtub .two{
+  background-color: rgb(144, 218, 211);
+  margin-left: 150px;
+  color: black;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+ 
+.linto  {
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 25px;
+  margin-bottom: 80px;
+}
+
+.linto .column{
+  float: left;
+  width: 40%;
+  padding: 20px;
+  height: 520px;
+  text-align: center;
+}
+.linto .one{
+  background-color: rgb(129, 210, 212);
+  padding: 10px;
+  margin-left: 60px;
+  padding: 20px;
+  color: rgb(199, 42, 42);
+  font-family:cursive;
+}
+.linto .one a img{
+  border-radius: 12px ;
+}
+.linto .two{
+  background-color: rgb(144, 218, 211);
+  margin-left: 100px;
+  color: black;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.linto .two a img{
+  width: 140px;
+  height:90px;
+  border-radius: 20px;
+  margin-bottom: 9px;
+}
+.linto .two .three img{
+  border-radius: 20px;
+}
+
+.vidoo {
+  background-color: #AAAAAA;
+  width: 90%;
+  height: 800px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: center;
+  color: brown;
+  font-family: 'Times New Roman', Times, serif;
+}
+.vidoo iframe{
+  margin: 20 50px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+  
+
+
+
+/* This is for the login page */
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+
+/* For the login page */
+.container2 {
+  padding: 20px;
+  background-color: rgba(44, 134, 150, 0.397);
+  border-radius: 20px;
+  padding: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  color: #fefefe;
+}
+.container2 .torss button{
+  color: #000;
+  align-content: center;
+  margin-left: 50px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/* For the feedback page */
+
+.infsys {
+  background-color:rgba(44, 134, 150, 0.397);
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  padding: 20px;
+  padding-bottom: 30px;
+  border-radius: 19px;
+
+}
+.infsys2 {
+  background-color:rgba(44, 134, 150, 0.397);
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  padding: 20px;
+  padding-bottom: 30px;
+  border-radius: 19px;
+  text-align: justify;
+
+}
+.infsys2 .hdsh {
+  margin-left: 50px;
+  background-color:rgb(192, 199, 195) ;
+  padding: 10px;
+  color: #000;
+  font-family: cursive;
+} 
+.infsys2 .hbsg {
+  margin-left: 50px;
+  background-color:rgb(192, 199, 195) ;
+  padding: 10px;
+  color: rgb(126, 63, 63);
+  font-family: cursive;
+} 
+
+.infsys2 .zayed img{
+  margin-right: 0%;
+  margin-left: 270px;
+  border-radius: 40px;
+}
+.infsys2 .me img{
+  margin-right: 0%;
+  margin-left: 270px;
+  border-radius: 400px;
+  margin-bottom: 20px;
+}
+
+.yol a:hover {
+  text-decoration: none;
+  color:red;
+  
+}
+.yol a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.salu a img {
+  margin: 0 8px;
+}
+.salu img {
+  border-radius: 12px;
+}
+.fedbox textarea {
+  border-radius: 10px;
+}
+
+
+
+/* web services weather ,chat, twitter */
+
+
+.colchat {
+  margin-top: 0px ;
+  margin-right: 0%;
+}
+
+.weathr {
+  text-decoration: none;
+  position: relative;
+  margin-top: 0px;
+  top: 0px;
+}
+.twitter-tweet blockquote {
+  width: 400px;
+  height: 200px;
+}
+
+
+
+
+
+
+.thru a img {
+  margin: 0 10px;
+  border-radius: 12px;
+}
+
+
+
+/* Contact page styling of the borders and table */
+
+.cotat2 {
+  color: rgb(153, 129, 93);
+  background-color:rgba(44, 134, 150, 0.397);
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.cotat2 table {
+  font-size: 16px;
+  font-family:cursive;
+}
+.phot2  {
+  width: 200px;
+  height: 300px;
+  border-radius: 50px;
+  margin-top:  8px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+/* My favorite places page layout and styling */
+
+.vist ol {
+  background-color: rgba(156, 192, 155, 0.932);
+  border-radius: 20px;
+  font-family:cursive;
+  color: #000;
+  margin-right: 25px;
+
+}
+.hass .vist{
+  margin: 20 20px
+}
+
+.vist ol a {
+  text-decoration: none;
+  color:rgb(22, 25, 41);
+  
+}
+.vist a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.jogu {
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  background-color: beige;
+  color: black;
+  border-radius: 15px;
+  margin: 25 45px;
+}
+
+
+.fivepp button{
+  background-color: rgb(245, 245, 237);
+  color: rgb(54, 54, 22);
+  text-align: center;
+}
+.fivepp a{
+  color: rgb(86, 60, 160);
+  padding: 5 4px;
+}
+.fivepp a:hover{
+  color: #f44336;
+}
+.fivepp{
+  margin: 30 50px;
+  border-radius: 10px;
+}
+.fivepp nav{
+  border-radius: 8px;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 22px;
+}
+
+.lefts{
+  margin: 5 20px;
+  padding: 10px;
+  border-radius: 12px;
+ }
+ .lefts img{
+  margin: 5 10px;
+  padding: 10px;
+  border-radius: 300px;
+ }
+
+
+
+
+
+
+/*  carousal and styling inside the image*/
+
+  /* Make the image fully responsive */
+  .carousel-inner {
+    position: relative;
+    left: 2px;
+    height: 500px;
+    width: 20%;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 30px;
+      right: 20px;
+      min-height: 800px;
+      width:95%;
+  }
+  
+  .col-sm-6 {
+    border: none ;
+   
+  }
+  .container{
+   width: 80%;
+   color: lime;
+   text-align:center black;
+   position: relative;
+   top: 55px;
+  }
+  
+  .clod {
+  color: rgb(216, 14, 14);
+  font-family: cursive;
+  background-color:rgba(212, 212, 165, 0.904);
+  margin: 50 10px;
+  padding: 40px;
+  border-radius: 20px;
+  }
+  .solution {
+  color: beige;
+  background-color:lightcyan ;
+  }
+  .container-fluid {
+    color: black;
+    background-color:rgb(15, 14, 14);
+  } 
+
+
+  .trip {
+    text-decoration: none;
+    background-color: rgba(212, 212, 165, 0.904);
+    margin: 2 60px;
+    color: darkgoldenrod;
+  }
+  .trip label{
+    color: black;
+    background-color: cyan;
+    margin: 10 40px;
+    border-radius: 6px;
+    text-align: justify;
+    padding: 10px;
+  }
+  .trip button{
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+    padding: 20px;
+    background-color: rgb(21, 219, 219);
+    border-radius: 12px;
+    
+  }
+
+
+
+  
+
+
+
+
+  /* News page*/
+  .time {
+    color: darkgoldenrod;
+    text-align:center;
+    padding:2em 0;
+    margin: 2 2px;
+  }
+ 
+
+  .info1 {
+    margin-top: 20px;
+  }
+
+  .info1 .sa {
+    color:rgb(20, 20, 19);
+    text-align: center;
+  }
+  .info1 .sb {
+    color:rgb(20, 20, 19);
+    text-align: center;
+  }
+  .info1 .sc {
+    color:rgb(20, 20, 19);
+    text-align: center;
+  }
+
+  .info1 .column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    height: 350px;
+  }
+
+  .info1 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .time {
+    margin-top: 30px;
+  }
+
+  .time .column{
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 200px;
+  }
+  .time .one{
+    background-color: rgb(129, 210, 212);
+    padding: 10px;
+    margin-left: 60px;
+    padding: 20px;
+    color: rgb(199, 42, 42);
+    font-family:cursive;
+  }
+  .time .one a img{
+    border-radius: 12px ;
+  }
+  .time .two{
+    background-color: rgb(144, 218, 211);
+    margin-left: 150px;
+    color: black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+
+/* Third part of the page */
+
+.shdn{
+  margin-left: 65px;
+  margin-top: 50px;
+}
+.shdn .column{
+  float: left;
+  width: 20%;
+  padding: 20px;
+  height: 400px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.shdn .ba {
+  background-color: rgb(129, 210, 212);
+    padding: 10px;
+    margin-left: 20px;
+    color: rgb(27, 23, 23);
+    font-family:cursive;
+}
+.shdn .bb {
+  background-color: rgb(129, 210, 212);
+    padding: 10px;
+    margin-left: 20px;
+    color: rgb(36, 32, 32);
+    font-family:cursive;
+}
+.shdn .bb img {
+  width: 90px;
+  height: 60px;
+}
+.shdn .bc {
+  background-color: rgb(129, 210, 212);
+    padding: 10px;
+    margin-left: 20px;
+    color: rgb(22, 20, 20);
+    font-family:cursive;
+}
+.shdn .bd {
+  background-color: rgb(129, 210, 212);
+    padding: 10px;
+    margin-left: 20px;
+    color: rgb(57, 116, 121);
+    font-family:cursive;
+}
+
+
+
+
+
+/* Links to social media accounts for the website  */
+
+.soclink {
+  margin-left: 15px;
+}
+
+.soclink .lin a {
+  justify-content: space-evenly;
+  width: 60px;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+.soclink .lin {
+  position:fixed;
+  background-color: rgb(49, 45, 45);
+  width: 100%;
+  bottom: 1px;
+  border: 6px solid #2c2c2b;
+  align-content: center;
+}
+
+ 
+.soclink .fa {
+  padding: 2px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.soclink.fa:hover {
+    opacity: 0.4;
+}
+
+.soclink.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.soclink.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.soclink.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.soclink.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.soclink.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.soclink.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/* help page FAQ's */
+
+.asked {
+  color: #c42d22;
+  font-family: cursive;
+  text-align: center;
+  background-color:antiquewhite;
+  margin-left: 10px;
+}
+.faqs {
+  background-color: rgba(197, 183, 156, 0.582);
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  padding: 15px;
+  border-radius: 12px;
+  color:rgb(97, 41, 15) ;
+}
+
+/* Advanced search page layout adn style */
+.searcc{
+  background-color: rgb(83, 82, 78);
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 20px;
+  height: 200px;
+}
+.searcc .gcse-search script {
+  margin-top: 160px;
+  border-radius: 30px;
+}
+.moreto {
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  color: #e71b1b;
+  background-color: aqua;
+  padding: 29px;
+  text-align: center;
+  font-family: cursive;
+  border-radius: 15px;
+}
+
+
+
+/* Layout and styling for sitemap page */
+
+.sitelin .column{
+  margin-left: 40px;
+  margin-top: 20px;
+  color:rgb(235, 219, 6) ;
+  float: left;
+  width: 30%;
+
+}
+.sitelin .column a{
+  color: #cec4a3;
+  font-size: 20px;
+  padding: 30px;
+}
